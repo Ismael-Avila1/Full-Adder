@@ -23,10 +23,10 @@ wire tb_res;
 wire tb_co;
 
 halfAdder duv(  // Design Under Verification
-    .op1(tb_op1),
-    .op2(tb_op2),
-    .res(tb_res),
-    .co(tb_co)
+    .haOp1(tb_op1),
+    .haOp2(tb_op2),
+    .haRes(tb_res),
+    .haCo(tb_co)
 );
 
 endmodule

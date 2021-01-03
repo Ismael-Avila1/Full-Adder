@@ -14,13 +14,13 @@ Salidas:
 `timescale 1ns/1ns
 
 module halfAdder(
-    input op1,
-    input op2,
-    output res,
-    output co   // CarryOut
+    input haOp1,    //halfAdderOp1
+    input haOp2,
+    output haRes,   // halfAdderResult
+    output haCo     // halfAdderCarryOut
 );
 
-assign res = op1 ^ op2;
-assign co = op1 & op2;
+assign haRes = haOp1 ^ haOp2;
+assign haCo = haOp1 & haOp2;
 
 endmodule
