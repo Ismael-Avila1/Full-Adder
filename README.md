@@ -34,6 +34,7 @@ $$
 ## Sumador Completo (Full Adder).
 
 El medio sumador no puede conectarse con otros medios sumadores para formar un sumador más grande, por ello es necesario diseñar un sumador que admita otra entrada además de los datos a sumar, es decir, un sumador de 3 datos de 1 bit. A esto se le denomina **sumador completo**, y su ecuación lógica y tabla de verdad están a continuación:
+
 $$
 𝑆=𝐴⨁𝐵⨁𝐶0, 𝐶1=𝐴⋅𝐵+(𝐴⨁𝐵)⋅𝐶0
 $$
