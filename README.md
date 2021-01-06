@@ -14,9 +14,7 @@ Un medio sumador es un circuito capaz de sumar dos datos de un bit y producir un
 
 ###### La ecuación lógica y la tabla de verdad del medio sumador son las siguientes: 
 
-$$
 𝑆=𝐴⨁𝐵, 𝐶=𝐴∙B
-$$
 
 ***S*** representa el resultado de la suma, mientras que ***C*** el acarreo de salida. 
 
@@ -35,9 +33,7 @@ $$
 
 El medio sumador no puede conectarse con otros medios sumadores para formar un sumador más grande, por ello es necesario diseñar un sumador que admita otra entrada además de los datos a sumar, es decir, un sumador de 3 datos de 1 bit. A esto se le denomina **sumador completo**, y su ecuación lógica y tabla de verdad están a continuación:
 
-$$
 𝑆=𝐴⨁𝐵⨁𝐶0, 𝐶1=𝐴⋅𝐵+(𝐴⨁𝐵)⋅𝐶0
-$$
 
 | A    | B    | C0   | C1   | S    |
 | ---- | ---- | ---- | ---- | ---- |
